@@ -1,81 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>SINOTRUK - Official Links</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sinotruk México</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <style>
     body {
         margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background: #0b3d21; /* 深绿色背景 */
-        color: white;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #0b3d0b, #1e5e1e);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: #fff;
         text-align: center;
     }
-
     .container {
-        max-width: 480px;
-        margin: auto;
-        padding: 40px 20px;
+        max-width: 400px;
+        width: 90%;
     }
-
     .logo {
-        width: 140px;
-        margin: 20px auto 30px;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto 20px;
+        border-radius: 50%;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     }
-
+    .logo img {
+        width: 80%;
+        height: auto;
+    }
     h1 {
-        font-size: 26px;
         margin-bottom: 30px;
-        font-weight: bold;
-        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 24px;
     }
-
-    .link-btn {
+    .btn {
         display: block;
-        background: white;
-        color: #0b3d21;
-        padding: 16px;
-        margin: 15px 0;
-        border-radius: 12px;
-        font-size: 18px;
-        font-weight: bold;
         text-decoration: none;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-        transition: 0.25s ease;
+        color: #fff;
+        background: #1a8a1a;
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 12px;
+        font-size: 16px;
+        transition: all 0.2s ease;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.2);
     }
-
-    .link-btn:hover {
-        transform: scale(1.04);
-        box-shadow: 0 6px 16px rgba(0,0,0,0.25);
-    }
-
-    .footer {
-        margin-top: 40px;
-        font-size: 13px;
-        opacity: 0.7;
+    .btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.3);
     }
 </style>
 </head>
-
 <body>
 <div class="container">
-
-    <!-- LOGO -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Sinotruk_logo.png" class="logo" />
-
-    <h1>SINOTRUK Official Links</h1>
-
-    <!-- 按钮区域 -->
-    <a class="link-btn" href="https://www.facebook.com/SinotrukGroup/" target="_blank">Facebook</a>
-    <a class="link-btn" href="https://www.instagram.com/sinotruk_mexico/" target="_blank">Instagram</a>
-    <a class="link-btn" href="https://www.linkedin.com/company/sinotrukméxico/" target="_blank">LinkedIn</a>
-    <a class="link-btn" href="https://www.tiktok.com/@sinotruk_mexico" target="_blank">TikTok</a>
-
-    <div class="footer">© SINOTRUK GROUP</div>
-
+    <div class="logo">
+        <img src="logo.png" alt="Sinotruk México Logo">
+    </div>
+    <h1>Sinotruk México</h1>
+    <a class="btn" href="https://www.facebook.com/SinotrukGroup/" target="_blank">Facebook</a>
+    <a class="btn" href="https://www.instagram.com/sinotruk_mexico/" target="_blank">Instagram</a>
+    <a class="btn" href="https://www.linkedin.com/company/sinotrukméxico/" target="_blank">LinkedIn</a>
+    <a class="btn" href="https://www.tiktok.com/@sinotrukmexico" target="_blank">TikTok</a>
 </div>
 </body>
 </html>
